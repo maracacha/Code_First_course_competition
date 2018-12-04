@@ -2,9 +2,10 @@ body, html {
   height: 100%;
    margin: 0;
    font-family: sans-serif;
+   background-color: #feff9c;
 }
-footer {
-     background-color: #f2f2f2;
+#footer {
+     background-color: #7afcff;
      padding: 25px;
    }
 .navbar {
@@ -40,21 +41,4 @@ footer {
  display: table; /* shrink wrap the contents */
  margin: 0 auto; /* center via left/right margins */
 }
-/*Background for Sign up*/
-#bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
+/* About background*/
