@@ -36,21 +36,25 @@ footer {
   max-width: 1200px;
   padding: 0 1rem;
 }
-ul {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
+.page-links {
+ display: table; /* shrink wrap the contents */
+ margin: 0 auto; /* center via left/right margins */
 }
-li a.active {
-    background-color: #0833E2;
-    color: white;
+/*Background for Sign up*/
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
 }
-
-li a:hover:not(.active) {
-    background-color: #8BA1F8;
-    color: white;
-}
-
-html{
-    background-color: #f3f3f3;
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
