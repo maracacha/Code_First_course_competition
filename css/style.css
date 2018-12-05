@@ -19,6 +19,7 @@ body, html {
      color: ##ffffff;
      text-align: center;
    }
+/*navbar*/
 .navbar {
   background-color: #ff65a3;
   margin-bottom: 0;
@@ -37,6 +38,7 @@ body, html {
 .navbar-inverse .navbar-nav  {
   color: #7afcff;
 }
+/*Carousel*/
 .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
