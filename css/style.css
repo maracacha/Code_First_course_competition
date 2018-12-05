@@ -3,11 +3,13 @@ body, html {
    margin: 0;
    font-family: sans-serif;
    text-align: center;
-   background: url("../images/yellowgrid.jpg");
-   background-size: cover;
-   background-position: center;
    background-color: #feff9c;
 }
+h2, h3 {
+color:#ff65a3;
+}
+
+
 #footer {
      background-color: ;
      padding: 25px;
