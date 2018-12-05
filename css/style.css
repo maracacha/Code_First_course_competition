@@ -1,6 +1,7 @@
 body, html {
    height: 100%;
    margin: 0;
+   padding-top: 10px;
    font-family: sans-serif;
    text-align: center;
    background-color: #feff9c;
@@ -51,16 +52,6 @@ table.inner{
         color: ##ffffff;
         text-align: center;
       }
-  #footer-signup {
-           padding: 10px;
-           position: absolute;
-           left: 0;
-           bottom: 0;
-           width: 100%;
-           background-color: #7afcff;
-           color: ##ffffff;
-           text-align: center;
-         }
          #footer-french{
                   padding: 10px;
                   position: absolute;
@@ -107,12 +98,7 @@ table.inner{
   max-width: 1200px;
   padding: 0 1rem;
 }
-/*container grid*/
-.container-grid {
-  position: relative;
-  width: 50%;
+.container-img {
+  margin-top: 20px;
+  padding: auto;
 }
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
