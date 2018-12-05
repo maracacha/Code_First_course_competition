@@ -8,6 +8,28 @@ body, html {
 h2, h3, h4, h5, h6 {
 color:#ff65a3;
 }
+h3{
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color:#ff65a3;
+  text-align: center;
+}
+
+table{
+  color:white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align:left;
+  background-color: #ff7eb9;
+  border-collapse: collapse;
+  border: 2px solid navy
+  margin-bottom
+}
+table.inner{
+  border: 20px
+}
 
 #footer {
      padding: 10px;
@@ -19,6 +41,36 @@ color:#ff65a3;
      color: ##ffffff;
      text-align: center;
    }
+#footer-about {
+        padding: 10px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #7afcff;
+        color: ##ffffff;
+        text-align: center;
+      }
+  #footer-signup {
+           padding: 10px;
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: #7afcff;
+           color: ##ffffff;
+           text-align: center;
+         }
+         #footer-french{
+                  padding: 10px;
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  background-color: #7afcff;
+                  color: ##ffffff;
+                  text-align: center;
+                }
 /*navbar*/
 .navbar {
   background-color: #ff65a3;
@@ -55,6 +107,7 @@ color:#ff65a3;
   max-width: 1200px;
   padding: 0 1rem;
 }
-.form {
-  text-align: center;
+/*container grid*/
+.container-grid {
+  position: relative;
 }
