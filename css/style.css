@@ -98,7 +98,8 @@ table.inner{
   max-width: 1200px;
   padding: 0 1rem;
 }
-.container-img {
+.img-fluid {
+  max-width: 100%;
+  height: auto;
   margin-top: 20px;
-  padding: auto;
 }
